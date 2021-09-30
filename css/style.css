@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 i {
     color:white;
 }
@@ -30,10 +34,19 @@ main {
    border: 5px solid black;
    height: 165px;
    overflow: hidden;
+   position: relative;
 }
 
 .img-container img {
     width: 100%;
+}
+
+.name {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
 }
 
 .row {
@@ -88,6 +101,8 @@ nav {
     display: flex;
     align-items: center; 
 }
+
+
 
 /* Nav */
 
