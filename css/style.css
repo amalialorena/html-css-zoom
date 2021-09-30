@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 i {
     color:white;
 }
@@ -14,12 +15,14 @@ i {
     clear: both;
 }
 
+/* Main */
 main {
     /* display: flex; */
     justify-content: center;
     background-color: black;
     height: calc(100vh - 80px);
     padding: 30px;
+    color:white;
 }
 
 .img-container {
@@ -54,18 +57,14 @@ nav {
     color:white;
     margin: 10px;
 }
-.view-container {
-    height: 46px;
-    
-}
+
 .screen {
     display: flex;
     flex-wrap: wrap;
 }
 
-.screen i {
+.main i {
     color:white;
-    width: 100%;
 }
 
 .arrow i {
@@ -78,7 +77,57 @@ nav {
     transform: rotate(90deg);
 }
 
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
 .container {
     display: flex;
     align-items: center; 
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+nav i {
+    font-size: 20px;
+    margin:15px;
+}
+.settings {
+    display: flex;
+}
+
+.mic {
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .center {
+    margin-left: 20px;
+}
+.end-meeting {
+    justify-content: center;
+    color:red;
+    background-color: #363739;
+    padding: 0 15px;
+}
+
+.share i {
+    color:#47c204;
 }
