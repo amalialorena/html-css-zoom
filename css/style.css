@@ -27,6 +27,7 @@ main {
     height: calc(100vh - 80px);
     padding: 30px;
     color:white;
+    overflow: hidden;
 }
 
 .img-container {
